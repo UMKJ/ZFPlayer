@@ -54,13 +54,17 @@
     },
     {
       "name": "ijkplayer",
-      "source_files": "ZFPlayer/Classes/ijkplayer/*.{h,m}",
+      "source_files": [
+        "ZFPlayer/Classes/ijkplayer/*.{h,m}",
+        "ZFPlayer/Frameworks/*"
+      ],
       "public_header_files": "ZFPlayer/Classes/ijkplayer/*.h",
       "dependencies": {
         "ZFPlayer/Core": [
 
         ]
       },
+      "vendored_frameworks": "ZFPlayer/Frameworks/IJKMediaFramework.framework",
       "platforms": {
         "ios": "8.0"
       }

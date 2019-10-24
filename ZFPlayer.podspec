@@ -43,7 +43,7 @@ Pod::Spec.new do |s|
         ijkplayer.source_files = ['ZFPlayer/Classes/ijkplayer/*.{h,m}','ZFPlayer/Frameworks/*']
         ijkplayer.public_header_files = 'ZFPlayer/Classes/ijkplayer/*.h'
         ijkplayer.dependency 'ZFPlayer/Core'
-        ijkplayer.vendored_frameworks 'IJKMediaFramework.framework'
+        ijkplayer.vendored_framework = 'ZFPlayer/Frameworks/IJKMediaFramework.framework'
         ijkplayer.ios.deployment_target = '8.0'
         
     end
