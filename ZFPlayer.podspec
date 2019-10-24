@@ -45,6 +45,7 @@ Pod::Spec.new do |s|
         ijkplayer.dependency 'ZFPlayer/Core'
         ijkplayer.vendored_frameworks 'IJKMediaFramework.framework'
         ijkplayer.ios.deployment_target = '8.0'
+        
     end
     
     s.subspec 'KSYMediaPlayer' do |ksyMediaPlayer|
